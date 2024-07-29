@@ -29,8 +29,8 @@ const (
 	execPathKeychain = "/usr/bin/security"
 
 	// encodingPrefix is a well-known prefix added to strings encoded by Set.
-	encodingPrefix       = "go-keyring-encoded:"
-	base64EncodingPrefix = "go-keyring-base64:"
+	encodingPrefix       = "vsh-enc:"
+	base64EncodingPrefix = "vsh-b64:"
 )
 
 type macOSXKeychain struct{}
