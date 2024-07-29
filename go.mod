@@ -1,4 +1,4 @@
-module github.com/vsh/go-keyring
+module github.com/KVEng/go-keyring
 
 go 1.22
 
